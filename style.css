@@ -1,0 +1,127 @@
+body{
+    font-family: Work sans;
+}
+header{
+    width: 1600px;
+    height: 809px;
+    background-image: url(./images/banner/banner/banner2.png);
+    background-repeat: no-repeat;
+}
+#headertext{
+    margin: 0px 230px 0px 845px;
+    text-align: right;
+     padding-top: 216px;
+   
+}
+h2{
+    font-size:65px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0%;
+   text-align: right;
+   margin-bottom: 24px;
+}
+ #header .headingtext{
+   font-size:16px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0%;
+   text-align: right;
+   margin-bottom: 32px;
+}
+button{
+    width: 160px;
+    height:64px ;
+    background-color: rgb(241, 91, 34);
+    color:rgba(255, 255, 255, 1) ;
+    border-radius: 5px;
+    border-color:rgb(241, 91, 34) ;
+}
+#failure{
+    align-items: center;
+    width: 1165px;
+    height: 714px;
+    margin: 139px 229px 0px 206px;
+}
+#failure .failure-container h3{
+    font-style: bold;
+    font-size:40px ;
+    font-weight: 700;
+    line-height:47px ;
+    letter-spacing: 0%;
+    padding-top: 231px;
+    margin-bottom: 24px;
+}
+ p .text{
+    color:  rgba(68, 67, 67, 0.822);
+    font-size:16px;
+    font-weight: 200;
+    line-height: 26px;
+}
+
+.failure-list{
+    list-style: none;
+    
+}
+#failure .failure-container{
+    display: flex;
+    justify-content: space-between;
+}
+#plan{
+    width: 1141px;
+   height: 300px;
+ 
+}
+#plan .plan-box{
+    display: flex;
+    justify-content: space-between;
+ margin-left: 230px;
+
+}
+#plan .plan-box .plan-card{
+    height: 300px;
+    width: 500px;
+    padding: 0 10px;
+    align-items: center;
+    text-align: center;
+}
+#plan h3{
+  
+  margin-top: 131px;
+  margin-left: 50%
+}
+#watch{
+    width: 1140px;
+    height: 300px;
+    background-image: url(images/banner/gradient2.png) ,url(images/banner/watch.png);
+    margin: 100px 230px 130px ;
+}
+#watch .watch-container{
+    margin:0px 0px 0px 64px ;
+    padding-top: 30px ;
+}
+#watch h3{
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 24px;
+  
+}
+h3{
+    font-style: bold;
+    font-size:40px ;
+    font-weight: 700;
+    line-height:47px ;
+    letter-spacing: 0%;
+}
+#watch  .btn{
+    font-size:20px ;
+    font-style: bolder;
+     width: 160px;
+    height:64px ;
+    background-color: white;
+    color:rgb(241, 91, 34)  ;
+    border-radius: 5px;
+    margin-bottom: 59px;    
+}
+
