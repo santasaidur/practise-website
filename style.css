@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: Work sans;
 }
@@ -33,17 +37,20 @@ h2{
 button{
     font-size: 20px;
     margin-top: 10px;
-    height:50px ;
+    font-style: bold;
+    width:160px ;
+    height:64px ;
     background-color: rgb(241, 91, 34);
     color:rgba(255, 255, 255, 1) ;
     border-radius: 5px;
     border-color:rgb(241, 91, 34) ;
 }
 #failure{
+  
     align-items: center;
     width: 1165px;
     height: 714px;
-    margin: 139px 229px 0px 206px;
+    margin: 139px 206px 0px 206px;
 }
 #failure .failure-container h3{
     font-style: bold;
@@ -53,17 +60,32 @@ button{
     letter-spacing: 0%;
     padding-top: 231px;
     margin-bottom: 24px;
+
 }
- p .text{
-    color:  rgba(68, 67, 67, 0.822);
-    font-size:16px;
+#failure .failuretext{
+    padding-left: 40px;
+    margin-left: 20px;
+}
+ #failure .failure-container p{
+  color: rgba(68, 67, 67, 1);
+    font-size: 20px;
     font-weight: 200;
     line-height: 26px;
 }
-
+#failure .failure-container ul{
+    color: rgba(68, 67, 67, 1);
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 45px;
+}
 .failure-list{
     list-style: none;
+    padding: 0px;
     
+}
+.fa-solid fa-check{
+    color: green;
+    padding: 10px;
 }
 #failure .failure-container{
     display: flex;
@@ -80,6 +102,14 @@ button{
     justify-content: space-between;
 
 
+}
+#plan p{
+    font-size: 20px;
+    color:rgba(68, 67, 67, 1) ;
+    padding-top: 10px;
+}
+#plan .plan-box .plan-card h5{
+    font-size: 25px;
 }
 #plan .plan-box .plan-card{
     height: 300px;
@@ -131,4 +161,58 @@ footer{
     height: 577px;
     background-color: black;
 }
+#future{
+    height: 317px;
+    width: 1140px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 0 auto;
+    padding-top: 130px;
+}
+.futurecontainer{
+    width: 485px;
+    height: 317px;
+}
+.futureheading{
+    padding-bottom: 20px;
+}
+.futurecontainer .p{
+    padding-bottom: 20px;
+   
+}
+.icon{
+    padding-top: 20px;
+}
+.email{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h4{
+    height: 29px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: Bold;
 
+}
+input{
+    font-size: 16px;
+    color: white;
+    width: 325px;
+    height:64px ;
+    border: 1px solid white;
+    background-color: black;
+padding-left: 20px;
+border-radius: 7px;
+}
+.boton{
+    width: 170px;
+    height: 64px;
+    background-color: white;
+    color: orangered;
+    padding-left: 7px;
+    font-style: bolder;
+    border: none;
+}
